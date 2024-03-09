@@ -28,7 +28,8 @@ void bubbleSort(int arr[], int n)
     printf("%d\n", totalSwaps);
 }
 
-void selectiveSort(int arr[], int n) {
+void selectiveSort(int arr[], int n) 
+{
     int swaps = 0;
     int swapCount[100] = {0};
 
